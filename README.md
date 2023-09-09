@@ -1,6 +1,6 @@
 # Shake List
 
-[crooi.io/shakelist](https://crooi.io/shakelist/)
+[shakelist.crooi.io](https://shakelist.crooi.io/)
 
 ## Data From
 
