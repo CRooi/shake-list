@@ -1,0 +1,178 @@
+#mainBar {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 98px;
+	width: 350px;
+	color: white;
+}
+
+#mainLeft {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 98px;
+	width: 248px;
+	background-color: #333333;
+	border-radius: 10px;
+	border: 2px solid #ADB8C0;
+	box-sizing: border-box;
+}
+
+#mainMaxInt {
+	position: absolute;
+	height: 98px;
+	width: 98px;
+	right: 0px;
+	background-color: #444444;
+	border-radius: 10px;
+	font-size: 72px;
+	font-family: OPPOSans-H !important;
+	text-align: center;
+	text-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+	border: 2px solid #ADB8C0;
+	box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-variant-numeric: normal !important;
+}
+
+#mainTime {
+	position: relative;
+	top: 2px;
+	left: 4px;
+	font-size: 16px;
+}
+
+#mainEpicenter {
+	position: relative;
+	top: 2px;
+	left: 4px;
+	font-size: 20px;
+	line-height: 22px;
+	width: 237px;
+}
+
+#mainDepth {
+	position: absolute;
+	bottom: 0px;
+	left: 4px;
+	font-size: 25px;
+}
+
+#mainMagnitude {
+	position: absolute;
+	bottom: 0px;
+	right: 4px;
+	font-size: 25px;
+}
+
+.hoverMainBar {
+	position: absolute;
+	left: 0px;
+	height: 98px;
+	width: 350px;
+	/* margin-top: 4px; */
+    background-color: transparent;
+    border-radius: 10px;
+	border: 2px solid transparent;
+	box-sizing: border-box;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.hoverSubBar {
+	position: absolute;
+	left: 0px;
+	height: 48px;
+	width: 350px;
+	margin-top: 4px;
+    background-color: transparent;
+    border-radius: 10px;
+	border: 2px solid transparent;
+	box-sizing: border-box;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.subBar {
+	position: relative;
+	left: 0px;
+	height: 48px;
+	width: 350px;
+	color: white;
+	margin-top: 4px;
+}
+
+.subLeft {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	height: 48px;
+	width: 298px;
+	background-color: #333333;
+	border-radius: 10px;
+	border: 1.5px solid #ADB8C0;
+	box-sizing: border-box;
+}
+
+.subMaxInt {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 48px;
+	width: 48px;
+	background-color: #444444;
+	border-radius: 10px;
+	font-size: 30px;
+	font-family: OPPOSans-H !important;
+	text-align: center;
+	text-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+	border: 2px solid #ADB8C0;
+	box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-variant-numeric: normal !important;
+}
+
+.subTime {
+	position: relative;
+	top: 2px;
+	left: 4px;
+	font-size: 15px;
+}
+.subEpicenter {
+	position: relative;
+	top: -1px;
+	left: 4px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	height: 25px;
+}
+
+.subMagnitude {
+	position:absolute;
+	right: 4px;
+	font-size: 21px;
+	line-height: 46px;
+	top: 0px;
+    height: 46px;
+    text-align: right;
+}
+
+.hoverMainBar:hover {
+    background-color: rgba(52, 52, 52, 0.3);
+}
+
+.hoverSubBar:hover {
+    background-color: rgba(52, 52, 52, 0.3);
+}
+
+.transition {
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .2s;
+}
